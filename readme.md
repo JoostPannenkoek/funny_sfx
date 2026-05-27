@@ -32,7 +32,15 @@ pip install -r requirements.txt
 # run script with default args in bg
 pythonw funny_sfx.py
 
+```
 
+## Argument Usage
+```powershell
+# play sound now
+pythonw funny_sfx.py --now
+
+# configure chance (every second a one in N chance to play rnd sound)
+pythonw funny_sfx.py --chance 69420
 ```
 
 ## Configure for startup
