@@ -21,16 +21,18 @@ nohup python funny_sfx.py >/dev/null 2>&1 &
 Windows (cmd):
 ```cmd
 # make virtual env
-python3 -m venv venv
+python -m venv .venv
 
 # get into that shit
-venv\Scripts\activate.bat
+.venv\Scripts\activate.bat
 
 # install dependencies
 pip install -r requirements.txt
 
 # run script with default args in bg
 pythonw funny_sfx.py
+
+
 ```
 
 ## Configure for startup
