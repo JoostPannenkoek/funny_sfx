@@ -24,7 +24,7 @@ Windows (cmd):
 python3 -m venv venv
 
 # get into that shit
-venv\Scrips\activate.bat
+venv\Scripts\activate.bat
 
 # install dependencies
 pip install -r requirements.txt
